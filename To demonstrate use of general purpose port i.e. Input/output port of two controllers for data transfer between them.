@@ -1,0 +1,8 @@
+#include<reg51.h>
+void main()
+{
+unsigned int i;
+while (1)
+P2 = 0X55;         //Set up a hex value at port 2
+for (i=0;i<1000;i++);
+}
